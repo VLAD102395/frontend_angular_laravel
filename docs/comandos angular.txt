@@ -1,0 +1,16 @@
+1. Generar el componente inicio
+npx ng generate component inicio
+npx ng g c inicio
+
+2. Generar un modulo (auth)
+npx ng g m auth --routing
+
+3. Generar un modulo (admin)
+npx ng g m admin --routing
+
+4. Generar los componentes login y registro en el modulo auth
+npx ng g c auth/components/login
+npx ng g c auth/components/registro
+
+5. Generar el componentes perfil en el modulo admin
+npx ng g c admin/components/perfil
